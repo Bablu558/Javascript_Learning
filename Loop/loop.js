@@ -200,3 +200,81 @@
 //         console.log(heroes[i][j]);
 //     }
 // }
+
+
+
+//*********************************************** */
+
+
+// for of loop
+
+
+//  for(element of collection){
+//    // do something
+// }
+
+
+// for of loop is used to iterate over iterable objects such as arrays, strings, maps, sets, etc.
+//  It allows us to loop through the values of an iterable easily without dealing with indexes or object properties.
+
+
+
+// let fruits=["mango","apple","banana","litchi","orange"];
+
+// for(fruit of fruits){
+//     console.log(fruit);
+// }
+
+
+
+// output
+// mango
+// apple
+// banana
+// litchi
+// orange
+
+
+// for(char of "Bablu kumar"){
+//     console.log(char);
+// }
+
+
+
+// output
+// B
+// a
+// b
+// l
+// u
+
+// k
+// u
+// m
+// a
+// r
+
+
+//*********************************************** */
+
+
+// Nested For of Loop
+
+// let heroes = [["ironman","spiderman","thor"],["superman","wonder woman","flash"]];
+
+// for(list of heroes){
+    
+//         console.log(list);
+    
+// }
+
+
+// for(list of heroes){
+//     for(hero of list){
+//         console.log(hero);
+//     }
+// }
+
+
+
+
