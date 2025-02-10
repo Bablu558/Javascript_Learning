@@ -64,7 +64,7 @@ const students = [
 ];
 
 const allAdults = students.every(student => student.age >= 18);
-console.log(allAdults); // Output: true ✅ (All students are 18 or older)
+console.log(allAdults); // Output: true  (All students are 18 or older)
 
 
 
@@ -109,7 +109,7 @@ console.log(allAdults); // Output: true ✅ (All students are 18 or older)
 
 //Explanation:
 
-// It checks 10 → 20 → 5  → Stops immediately & returns false.
+// It checks 10 -> 20 -> 5  -> Stops immediately & returns false.
 // It does NOT check 40 & 50 because it already found a false condition.
 
 
