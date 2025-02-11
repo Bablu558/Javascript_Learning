@@ -88,11 +88,11 @@
 //Finding Maximum Value Using .reduce()
 
 
-const numbers = [45, 67, 23, 89, 12];
+// const numbers = [45, 67, 23, 89, 12];
 
-const max = numbers.reduce((acc, num) => (num > acc ? num : acc), numbers[0]);
+// const max = numbers.reduce((acc, num) => (num > acc ? num : acc), numbers[0]);
 
-console.log(max); // Output: 89
+// console.log(max); // Output: 89
 
 
 //Explanation:
@@ -111,7 +111,32 @@ console.log(max); // Output: 89
 //  Can be used for summing, counting, grouping, finding max/min, flattening arrays, and more!
 //  If .reduce() runs without initialValue, it takes the first element as the starting accumulator.
 
+//************notes End****************** */
 
 
 
-//************notes ****************** */
+
+
+// let arr=[1,2,3,5,4,8,7,9,3,54];
+
+// let max=-1;
+// for(let i=0; i<arr.length;i++){
+//     if(max < arr[i]){
+//         max=arr[i];
+//     }
+// }
+// console.log(max);
+
+
+// 2nd way to do this with reduce method 
+
+let arr=[1,2,3,5,4,8,7,9,3,5];
+
+ let max=arr.reduce((max,el)=>{
+    if (max<el){
+        return el;
+    }else{
+        return max;
+    }
+ });
+ console.log(max);
